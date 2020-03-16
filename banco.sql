@@ -1,0 +1,9 @@
+/* CRIAR A DATABASE crud1 */
+
+CREATE TABLE produtos (
+    id_produto INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL
+);
+
+/* PARA EXCLUIR -> DROP TABLE produtos*/
